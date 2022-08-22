@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+@media (max-width:600px) {
+    *{
+        overflow-x: hidden;
+    }
+    
+    header{
+        display: flex;
+        gap: 36vw;
+        background-color: #BC82A1;
+        
+    }
+    .logo img{
+        width:200px;
+    }
+   .linhas img{
+        margin-top: 1.2em;
+       
+        width:45px;
+    }
+    .banner
+    {
+        background-image: url("assets/imagens/thumb-1920-736068.png");
+        background-size: cover;
+        height: 91vh;
+        display: flex;
+        flex-direction: column;
+        gap: 14em;
+    
+       
+    }
+    section .textos{
+        margin-top: 15em;
+        font-family: Crewniverse;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #4F2B53;
+        
+        
+    }
+    .textos h1{
+        font-size: 32px;
+        text-shadow: 3px 3px black;
+    }
+    .textos p{
+        margin-top: 18px;
+        font-size: 14px;
+        text-shadow: 2px 1px black;
+        
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    section .historia_titulo{
+        margin-top: 12px;
+        font-family: Crewniverse;
+        text-align: center; 
+        color: #4F2B53;
+        text-shadow: 3px 3px black;
+        font-size: 32px;
+    }
+    section .linha{
+        
+        align-self: center;
+        border-bottom: 5px solid black;
+        width: 250px;
+        margin-top: 10px;
+    }
+    section .historia_texto{
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: bolder;
+        align-self: center;
+        width: 355px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    section .imagem1{
+        margin-top: 30px;        
+        align-self:  center;
+        margin-bottom: 10px;
+    }
+    section .imagem2 img{
+        width: 260px;
+       
+    }
+    
+    .imagem2{
+        margin-top: 6.1em;
+        align-self:  center;
+    }
+    .banner2{
+        margin-top: 0;
+        background-image: url("assets/imagens/banner2.webp");
+        background-size: cover;
+    }
+    .banner2_titulo h1{
+        margin-top: 30px;
+        font-family: Crewniverse;
+        font-size: 32px;
+        text-align: center; 
+        color: #4F2B53;
+        text-shadow: 3px 3px black;
+    }
+    .personagens{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .steven{
+        display: flex;
+        margin-top: 40px;
+        width: 400px;
+        gap: 20px;
+    }
+    .steven img{
+        margin-left: 10px;
+        width: 150px;
+    }
+    .steven p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+        width: 53vw;
+        font-weight: bolder;
+       
+        text-align: justify;
+    }
+    .garnet{
+        display: flex;
+        gap: 3em;
+        margin-top: 1em;
+    }
+ 
+    .garnet img{
+        width: 120px;
+    }
+    .garnet p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+        width: 53vw;
+        font-weight: bolder;
+      
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .perola{
+        display: flex;
+    }
+    .perola img{
+        margin-left: 10px;
+        width: 150px;
+    }
+    .perola p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+        width: 53vw;
+        font-weight: bolder;
+        
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .ametista{
+        gap: 1em;
+        display: flex;
+    }
+    .ametista p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+        width: 53vw;
+        font-weight: bolder;      
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .ametista img{
+        width: 180px;
+    }
+}
+@font-face {
+    font-family: Crewniverse;
+    src: url(assets/fontes/crewniverse_font.ttf);
+}
