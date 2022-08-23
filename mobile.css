@@ -44,12 +44,12 @@
         
     }
     .textos h1{
-        font-size: 32px;
+        font-size:13vw;
         text-shadow: 3px 3px black;
     }
     .textos p{
         margin-top: 18px;
-        font-size: 14px;
+        font-size: 5vw;
         text-shadow: 2px 1px black;
         
     }
@@ -74,7 +74,7 @@
     }
     section .historia_texto{
         margin-top: 20px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'DynaPuff', cursive;
         color: black;
         font-weight: bolder;
         align-self: center;
@@ -125,11 +125,11 @@
         width: 150px;
     }
     .steven p{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'DynaPuff', cursive;
         font-size: 3vw;
         width: 53vw;
         font-weight: bolder;
-       
+        margin-right: 30px;
         text-align: justify;
     }
     .garnet{
@@ -142,7 +142,7 @@
         width: 120px;
     }
     .garnet p{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'DynaPuff', cursive;
         font-size: 3vw;
         width: 53vw;
         font-weight: bolder;
@@ -158,28 +158,78 @@
         width: 150px;
     }
     .perola p{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'DynaPuff', cursive;
         font-size: 3vw;
         width: 53vw;
-        font-weight: bolder;
-        
+        font-weight: bolder;        
         text-align: justify;
-        margin-left: 20px;
+        
     }
     .ametista{
         gap: 1em;
         display: flex;
     }
     .ametista p{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'DynaPuff', cursive;
         font-size: 3vw;
         width: 53vw;
         font-weight: bolder;      
         text-align: justify;
         margin-left: 20px;
+               
+    }
+    .momentos .titulo_momentos h1{
+        
+        font-family: Crewniverse;
+        font-size: 34px;
+        margin-top: 30px;
+        text-align: center;
     }
     .ametista img{
         width: 180px;
+    }
+    section iframe{
+        width:320px; 
+        height:181px;
+    }
+    .momentos{
+        background-image: url('assets/imagens/banner.webp');
+        background-position: cover;
+    }
+    .momentos div{
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        gap: 2em;
+        
+    }
+    .momentos div h1{
+        font-family: Crewniverse;
+         color: #4F2B53;
+        font-size: 20px;
+        text-shadow: 3px 3px black;
+    }
+    .momentos iframe{
+        display: flex;
+        align-self: center;
+      
+    }
+    .momentos h1{
+        margin-top: 20px;
+    }
+    .videos{
+        margin-top: 80px;
+    }
+    footer{
+        height: 100px;
+        background-image: url("assets/imagens/banner3.jpg");
+        background-size: cover;
+    }
+    footer h1{
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'DynaPuff', cursive;
+        font-size: 5vw;
     }
 }
 @font-face {
