@@ -11,10 +11,11 @@
     
     header{
         display: flex;
+        gap: 1px;
         background-color: #BC82A1;
         border-bottom: 1px solid black;        
     }
-    
+
 
     nav a{
         text-transform: uppercase;
@@ -29,6 +30,7 @@
     .linhas_ou_opcoes{
         display: flex;
         flex-direction: column;
+        width: 158px;
     }
     
 
@@ -37,7 +39,7 @@
         display: flex;
         flex-direction: column;
         align-items:flex-end;
-        gap: 1em;        
+        gap: 1em;
         list-style: none;
         display: none;
         margin-bottom: 10px;
@@ -50,7 +52,7 @@
     }
    .linhas img{
         margin-top: 1.2em;
-        margin-left:36vw;
+        margin-left:30vw;
         width:45px;
         display: flex;
     }
