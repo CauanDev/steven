@@ -4,14 +4,13 @@
     padding: 0;
     box-sizing: content-box;
 }
-  html {
-  scroll-behavior: smooth;
-}
+html {
+    scroll-behavior: smooth;
+  }
 @media (max-width:600px) {
     *{
         overflow-x: hidden;
     }
-  
     
     header{
         display: flex;
@@ -34,7 +33,7 @@
     .linhas_ou_opcoes{
         display: flex;
         flex-direction: column;
-        width: 158px;
+        width: 150px;
     }
     
 
@@ -56,10 +55,11 @@
     }
    .linhas img{
         margin-top: 1.2em;
-        margin-left:30vw;
+        margin-left:25vw;
         width:45px;
         display: flex;
     }
+    
     .banner
     {
         background-image: url('../imagens/thumb-1920-736068.png');
@@ -254,7 +254,12 @@
     .momentos iframe{
         display: flex;
         align-self: center;
+        
       
+    }
+    .momentos iframe{
+        width: 560px;
+        height: 315px;
     }
     .momentos h1{
         margin-top: 20px;
