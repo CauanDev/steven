@@ -1,17 +1,8 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
-@media (max-width:600px) {
-    *{
-        overflow-x: hidden;
-    }
-    
+@media (min-width:600px) {
+
     header{
         display: flex;
-        gap: 1px;
+        gap: 25em;
         background-color: #BC82A1;
         border-bottom: 1px solid black;        
     }
@@ -22,45 +13,55 @@
         text-decoration: none;
         color: black;
         font-family: 'DynaPuff', cursive;
-        font-weight: bolder;
-        font-size: 5vw;        
+        font-weight: bo7lder;
+        font-size: 36px;   
+             
      }
-    
+    .opcoes ul{
+        display: flex;
+    }
     
     .linhas_ou_opcoes{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 150px;
     }
     
 
     nav ul{
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
+        
+        display: flex;        
         align-items:flex-end;
-        gap: 1em;
+        gap: 1.3em;
         list-style: none;
         display: none;
-        margin-bottom: 10px;
-        
-        
-        
+        margin-bottom: 25px;  
     }
+
+    nav a{
+        padding-bottom: 19px;
+    }
+
+    nav a:hover{
+        border-bottom: 7px solid rgb(111, 0, 255);
+    }
+
     .logo img{
-        width:200px;
+        width:240px;
     }
    .linhas img{
         margin-top: 1.2em;
         margin-left:25vw;
         width:45px;
-        display: flex;
+        display: none;
+       
     }
+    
     .banner
     {
         background-image: url('../imagens/thumb-1920-736068.png');
         background-size: cover;
-        height: 91vh;
+        height: 101vh;
         display: flex;
         flex-direction: column;
         gap: 14em;
@@ -68,21 +69,23 @@
        
     }
     section .textos{
-        margin-top: 15em;
+        margin-top: 8em;
         font-family: Crewniverse;
         letter-spacing: 1px;
         text-align: center;
         color: #4F2B53;
+        align-self: center;
+        width: 85vw;
         
         
     }
     .textos h1{
-        font-size:13vw;
+        font-size:8vw;
         text-shadow: 3px 3px black;
     }
     .textos p{
         margin-top: 18px;
-        font-size: 5vw;
+        font-size: 4vw;
         text-shadow: 2px 1px black;
         
     }
@@ -91,16 +94,20 @@
         flex-direction: column;
     }
     .historia{
+        display: flex;
+        flex-direction: column;
         background-image: url('../imagens/banner4.webp');
         background-size: cover;
     }
+    
+    
     section .historia_titulo{
         margin-top: 12px;
         font-family: Crewniverse;
         text-align: center; 
         color: #4F2B53;
         text-shadow: 3px 3px black;
-        font-size: 32px;
+        font-size: 45px;
     }
     section .linha{
         
@@ -116,14 +123,15 @@
         color: black;
         font-weight: bolder;
         align-self: center;
-        width: 355px;
-        font-size: 16px;
+        width: 400px;
+        font-size: 20px;
         text-align: justify;
     }
     section .imagem1{
         margin-top: 30px;        
         align-self:  center;
         margin-bottom: 10px;
+        display: none;
     }
     section .imagem2 img{
         width: 260px;
@@ -138,6 +146,8 @@
         margin-top: 0;
         background-image: url("../imagens/banner2.webp");
         background-size: cover;
+        display: flex;
+        flex-direction: column;
     }
     .banner2_titulo h1{
         margin-top: 30px;
@@ -152,22 +162,25 @@
         flex-direction: column;
         gap: 2em;
     }
+    .personagens div p{
+        font-size: 2vw;
+        width: 600px;
+    }
     .steven{
         display: flex;
         margin-top: 40px;
-        width: 400px;
-        gap: 20px;
+        gap: 20em;
+        
+        
     }
     .steven img{
-        margin-left: 10px;
-        width: 150px;
+        margin-left: 10em;
+        width: 200px;
     }
     .steven p{
         font-family: 'DynaPuff', cursive;
-        font-size: 3vw;
-        width: 53vw;
-        font-weight: bolder;
-        margin-right: 30px;
+        
+        font-weight: bolder;        
         text-align: justify;
     }
     .garnet{
@@ -177,7 +190,9 @@
     }
  
     .garnet img{
-        width: 120px;
+        width: 200px;
+        margin-left: 9em;
+
     }
     .garnet p{
         font-family: 'DynaPuff', cursive;
@@ -190,9 +205,10 @@
     }
     .perola{
         display: flex;
+        gap: 20em;
     }
     .perola img{
-        margin-left: 10px;
+        margin-left: 10em;
         width: 150px;
     }
     .perola p{
@@ -225,6 +241,7 @@
     }
     .ametista img{
         width: 180px;
+        margin-left: 10em;
     }
     section iframe{
         width:320px; 
@@ -234,22 +251,29 @@
         background-image: url('../imagens/banner.webp');
         background-position: cover;
     }
-    .momentos div{
+    .momentos{
         display: flex;
-        align-self: center;
         flex-direction: column;
-        gap: 2em;
+        align-items: center;
         
     }
+    .grupo1,.grupo2,.grupo3{
+        display: flex;
+        gap: 1em;
+        
+      }
+      
+       
     .momentos div h1{
         font-family: Crewniverse;
-         color: #4F2B53;
-        font-size: 20px;
+        color: #4F2B53;
+        font-size: 30px;
         text-shadow: 3px 3px black;
     }
     .momentos iframe{
         display: flex;
         align-self: center;
+        margin-top: 10px;
       
     }
     .momentos h1{
@@ -258,6 +282,9 @@
     .videos{
         margin-top: 80px;
     }
+    .grupo3{
+        margin-bottom: 10px;
+    }
     footer{
         height: 100px;
         background-image: url("../imagens/banner3.jpg");
@@ -265,13 +292,14 @@
     }
     footer h1{
         text-align: center;
-        margin-top: 20px;
+       
         font-family: 'DynaPuff', cursive;
-        font-size: 5vw;
+        font-size: 2vw;
+    }
+    .momentos iframe{
+        width: 500px;
+        height: 280px;
     }
    
-}
-@font-face {
-    font-family: Crewniverse;
-    src: url('../fontes/crewniverse_font.ttf');
+
 }
