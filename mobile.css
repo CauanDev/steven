@@ -11,8 +11,39 @@
     
     header{
         display: flex;
-        gap: 36vw;
+        gap:1em;
         background-color: #BC82A1;
+        border-bottom: 1px solid black;        
+    }
+    
+
+    nav a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        font-weight: bolder;
+        font-size: 5vw;        
+     }
+    
+    
+    .linhas_ou_opcoes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    nav ul{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        gap: 1em;        
+        list-style: none;
+        display: none;
+        margin-bottom: 10px;
+        
+        
         
     }
     .logo img{
@@ -20,12 +51,13 @@
     }
    .linhas img{
         margin-top: 1.2em;
-       
+        margin-left:36vw;
         width:45px;
+        display: flex;
     }
     .banner
     {
-        background-image: url("assets/imagens/thumb-1920-736068.png");
+        background-image: url('../imagens/thumb-1920-736068.png');
         background-size: cover;
         height: 91vh;
         display: flex;
@@ -57,6 +89,10 @@
         display: flex;
         flex-direction: column;
     }
+    .historia{
+        background-image: url('../imagens/banner4.webp');
+        background-size: cover;
+    }
     section .historia_titulo{
         margin-top: 12px;
         font-family: Crewniverse;
@@ -71,6 +107,7 @@
         border-bottom: 5px solid black;
         width: 250px;
         margin-top: 10px;
+        
     }
     section .historia_texto{
         margin-top: 20px;
@@ -98,7 +135,7 @@
     }
     .banner2{
         margin-top: 0;
-        background-image: url("assets/imagens/banner2.webp");
+        background-image: url("../imagens/banner2.webp");
         background-size: cover;
     }
     .banner2_titulo h1{
@@ -193,7 +230,7 @@
         height:181px;
     }
     .momentos{
-        background-image: url('assets/imagens/banner.webp');
+        background-image: url('../imagens/banner.webp');
         background-position: cover;
     }
     .momentos div{
@@ -222,7 +259,7 @@
     }
     footer{
         height: 100px;
-        background-image: url("assets/imagens/banner3.jpg");
+        background-image: url("../imagens/banner3.jpg");
         background-size: cover;
     }
     footer h1{
@@ -231,8 +268,9 @@
         font-family: 'DynaPuff', cursive;
         font-size: 5vw;
     }
+   
 }
 @font-face {
     font-family: Crewniverse;
-    src: url(assets/fontes/crewniverse_font.ttf);
+    src: url('../fontes/crewniverse_font.ttf');
 }
