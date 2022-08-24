@@ -5,18 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STEVEN</title>
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+
+   
+   
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".linhas").addEventListener("click",function(){
+                if(document.querySelector(".opcoes ul").style.display =='flex'){
     
+                    document.querySelector(".opcoes ul").style.display= 'none';
+    
+}
+else{
+  
+    document.querySelector(".opcoes ul").style.display= 'flex';
+    
+    
+    
+    
+   
+}
+
+            })
+                
+            
+        }
+        
+    </script>
 </head>
 <body>
    
     <header>
         <div class="logo"><img src="assets/imagens/Steven_Universe_logo.webp"  alt=""></div>
-        <div class="linhas"><img src="assets/imagens/cardapio.png" width="80px"alt=""></div>
+        <div class="linhas_ou_opcoes">
+            <div class="linhas" ><img src="assets/imagens/cardapio.png" width="80px"alt="" ></div>
+            <nav class="opcoes">
+                <div>
+                    <ul>
+                        <li><a href="#linha">HISTORIA</a></li>
+                        <li><a href="#persona">PERSONAGENS</a></li>
+                        <li><a href="#momentos">MOMENTOS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+      
     </header>
    
     <section class="banner">       
@@ -28,9 +67,9 @@
        
       
     </section>
- <section>
+ <section class="historia">
     <div class="imagem1">
-        <img src="assets/imagens/259-2598030_happilyeverafter-by-theoffcolors-steven-universe-steven-hd-png-removebg-preview.png" alt="">
+        <img src="assets/imagens/leao.png" width="300px" alt="" id="linha">
     </div>
     
         <div class="historia_titulo">
@@ -51,14 +90,14 @@
         </div>
        
  </section>
- <section class="banner2">
- <div class="banner2_titulo">
+ <section class="banner2" >
+ <div class="banner2_titulo" id="persona">
     <h1>PERSONAGENS<br>PRINCIPAIS</h1>
  </div>
 <div class="personagens">
 
 
- <div class="steven">
+ <div class="steven" >
     <img src="assets/imagens/personagens/steven.webp" alt="">
     <p>
         Steven Quartzo Universo é o personagem principal da série. Steven é o filho de Rose Quartz ,
@@ -92,7 +131,7 @@
  </section>
  <section class="momentos">
     <div class="titulo_momentos">
-        <h1>melhores momentos</h1>
+        <h1 id="momentos">melhores momentos</h1>
     </div>
     <div class="videos">
         <div class="video1">
@@ -142,7 +181,7 @@
  </footer>
 
 
-   
+
 
 
     
