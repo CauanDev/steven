@@ -1,0 +1,24 @@
+@media (min-width:600px) {
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    list-style: none;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'DynaPuff', cursive;
+}
+.logo img{
+    width: 200px;
+}
+
+}
