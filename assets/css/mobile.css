@@ -8,6 +8,9 @@
     *{
         overflow-x: hidden;
     }
+    html {
+  scroll-behavior: smooth;
+}
     
     header{
         display: flex;
